@@ -1,0 +1,31 @@
+# Composer dependencies
+/vendor/
+composer.json
+composer.lock
+
+# Environment configs
+.env
+.env.local
+
+# IDE/editor junk
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swm
+config/db.php
+
+
+# Logs
+*.log
+logs/
+storage/logs/
+
+# Cache files
+cache/
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
