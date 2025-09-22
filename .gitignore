@@ -1,11 +1,10 @@
 # Composer dependencies
 /vendor/
-composer.json
-composer.lock
 
-# Environment configs
+# Environment configs (never push these)
 .env
 .env.local
+config/db.php
 
 # IDE/editor junk
 .idea/
@@ -14,8 +13,6 @@ composer.lock
 *.swo
 *.swn
 *.swm
-config/db.php
-
 
 # Logs
 *.log
